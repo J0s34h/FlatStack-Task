@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E232" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Country" representedClassName="Country" syncable="YES" codeGenerationType="class">
+        <attribute name="capital" attributeType="String"/>
+        <attribute name="continent" attributeType="String"/>
+        <attribute name="description_big" optional="YES" attributeType="String"/>
+        <attribute name="description_small" attributeType="String"/>
+        <attribute name="flag" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="population" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CountryInfo" representedClassName="CountryInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="country" attributeType="String"/>
+        <attribute name="image" attributeType="String"/>
+        <attribute name="order" attributeType="Integer 16" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Country" positionX="-57.921875" positionY="-180.9869995117188" width="128" height="148"/>
+        <element name="CountryInfo" positionX="94.8114013671875" positionY="-139.5157775878906" width="112.888427734375" height="74"/>
+    </elements>
+</model>
